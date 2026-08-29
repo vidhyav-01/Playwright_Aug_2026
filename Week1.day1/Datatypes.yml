@@ -1,0 +1,77 @@
+
+
+/* Datatype in JS:
+
+1. number
+
+2. string
+
+3. boolean 
+
+4. undefined
+
+5. null
+*/
+
+//1. number datatype:
+
+var phoneNumber = 98989899; // Initilization
+console.log(phoneNumber); // 98989899
+
+console.log(typeof phoneNumber)  // number
+
+//keyword called typeof() => unary operator => it will tell you the datatype of a value that is stored in a variable
+
+/* In Other pgm language :
+
+int x=123 */
+
+/* ***************************************************************************** */
+
+//2. string datatype :
+
+var username = "support@testleaf.com"; // we use "" double quotes,'' single quotes, `` back tick(button that is above the tab button on the keyword)
+
+console.log(username);
+console.log(typeof username) //string
+
+//we are using these symbols to understand JS that it is dealing woth a string datatype
+
+/* ***************************************************************************** */
+
+//3. boolean datatype => only true or false
+
+var isJavaScriptIntresting = true;
+
+console.log(isJavaScriptIntresting);
+
+console.log(typeof isJavaScriptIntresting) // boolean
+
+/* ***************************************************************************** */
+
+// 4. undefined
+
+var accountNumber 
+console.log(accountNumber);// accountNumber is assigned as "undefined" because it is yet to be assigned with a valur in later stage
+
+console.log(typeof accountNumber); // the datatype pf variable that holds undefined as its value us also "undefined"
+
+
+/* ***************************************************************************** */
+
+//5. null
+
+var landLine = null // the value is left NA in a form intentionally
+console.log(landLine); // null
+
+console.log(typeof landLine); 
+
+//actually the datatype of null should be null but since JS developers created a historical bug during the development stage of JS the datatype of null pointed towards object
+
+
+
+
+/* Notes:
+
+Here in browser => JS Engine does the intrepretor job 
+When we write code in VS code it is intrepreted by Nodejs => JS Engine (V8)*/
